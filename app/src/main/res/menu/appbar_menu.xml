@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/settingId"
+    android:icon="@drawable/ic_settings_black_24dp"
+    android:title="Settings"
+    app:showAsAction="always"
+    android:iconTint="#ffffff"/>
+<item
+    android:id="@+id/shareId"
+    android:icon="@drawable/ic_share_black_24dp"
+    android:title="Share"
+    app:showAsAction="always"
+    android:iconTint="#ffffff">
+
+    <menu>
+        <item
+            android:id="@+id/facebookId"
+            android:title="Facebook"
+            android:icon="@drawable/ic_person_black_24dp"
+            />
+
+        <item
+            android:id="@+id/wifiId"
+            android:title="WI-FI"
+            android:icon="@drawable/ic_wifi_black_24dp"
+            />
+
+    </menu>
+
+</item>
+
+
+
+
+
+<item
+    android:id="@+id/exitId"
+    android:icon="@drawable/ic_exit_to_app_black_24dp"
+    android:title="Exit"
+/>
+    <item
+        android:title="Profile">
+        <menu>
+                <item
+                    android:id="@+id/friendsId"
+                    android:title="Friends"
+                    android:icon="@drawable/ic_accessibility_black_24dp"/>
+
+            <item
+                    android:id="@+id/followerId"
+                    android:title="Followers"
+                    android:icon="@drawable/ic_folder_shared_black_24dp"/>
+
+        </menu>
+
+    </item>
+
+</menu>

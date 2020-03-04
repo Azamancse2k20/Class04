@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".RegistationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/nameTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your name" />
+
+    <EditText
+        android:id="@+id/numberTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Number"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/passTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/textViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Next"
+        android:textColor="@color/colorAccent" />
+
+
+
+</LinearLayout>
